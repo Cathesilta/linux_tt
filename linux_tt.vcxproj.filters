@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="redis\redis_base\redis_base.cpp">
+      <Filter>redis\redis_base</Filter>
+    </ClCompile>
+    <ClCompile Include="redis\redis_ops\redis_hash_op_base.cpp">
+      <Filter>redis\redis_op</Filter>
+    </ClCompile>
+    <ClCompile Include="redis\redis_ops\redis_set_op_base.cpp">
+      <Filter>redis\redis_op</Filter>
+    </ClCompile>
+    <ClCompile Include="redis\redis_ops\redis_string_op_base.cpp">
+      <Filter>redis\redis_op</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="redis">
+      <UniqueIdentifier>{3695fe01-8f84-4741-9a27-c2b907acea5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="redis\redis_base">
+      <UniqueIdentifier>{59ef5887-e5e9-4626-a16a-27f036ac8a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="redis\redis_op">
+      <UniqueIdentifier>{b6f05d1b-d9ba-450a-b202-062d3671de31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="redis\redis_test">
+      <UniqueIdentifier>{0f317aad-a817-42b9-a73c-8a198f1c4dfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="redis\redis_base\redis_base.h">
+      <Filter>redis\redis_base</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_base\redis_type.h">
+      <Filter>redis\redis_base</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_ops\redis_hash_op_base.h">
+      <Filter>redis\redis_op</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_ops\redis_set_op_base.h">
+      <Filter>redis\redis_op</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_ops\redis_string_op_base.h">
+      <Filter>redis\redis_op</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_test\redis_hash_test.h">
+      <Filter>redis\redis_test</Filter>
+    </ClInclude>
+    <ClInclude Include="redis\redis_test\redis_string_test.h">
+      <Filter>redis\redis_test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

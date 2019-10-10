@@ -1,0 +1,12 @@
+﻿  Validating sources
+  Copying sources remotely to '117.184.149.5'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+  redis_base.cpp
+  redis_hash_op_base.cpp
+  redis_set_op_base.cpp
+  redis_string_op_base.cpp
+  Linking objects
+  linux_tt.vcxproj -> D:\codes\linux_tt\bin\x64\Debug\linux_tt.out
